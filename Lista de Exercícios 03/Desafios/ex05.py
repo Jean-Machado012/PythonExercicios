@@ -1,0 +1,5 @@
+lista = list()
+n = int(input('Digite um número inteiro: '))
+string = str(n)
+print(f'Em ordem: {string}')
+print(f'Contrário: {string[::-1]}')
